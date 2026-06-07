@@ -33,13 +33,16 @@
 
 **适用人群**：临床医师、医学生、住院医师规范化培训学员、检验与影像技术人员、护理及公共卫生工作者
 
-**参考教材**：人民卫生出版社《诊断学》第 10 版（ISBN: 978-7-117-35276-8）
+**参考教材**：人民卫生出版社《诊断学》第 10 版
 
-**⚠️风险声明⚠️**
-- 本项目仅供**教育参考**和**临床培训**使用，不可替代专业医疗判断。
-- 所有诊断决策必须结合患者具体情况，由具备执业资格的临床医师做出。
-- 源内容可能不持续更新至最新临床指南，使用时应与当前权威指南、本地方案和专科医师意见进行交叉验证。
-- 部署系统级医疗安全策略，要求将诊断、用药、急诊处理等决策升级至合格临床医师。
+
+**⚠️风险⚠️**：医疗诊断和操作指导可能被误认为是自主的临床建议。
+
+缓解措施：仅将该技能作为临床医生监督的教育和参考资料使用;在应用患者护理指导前，要求合格的临床医生审查。
+
+**⚠️风险⚠️**：涵盖侵入性操作、镇静剂或麻醉、抗凝、急诊心电图检查、肾衰竭处理或结核病解读的子技能，若无局部背景使用，可能造成更高伤害。
+
+缓解措施：要求当前的本地协议、明确的升级规则，以及对这些主题的专家或主治医生的监督。
 
 ## 项目结构
 
@@ -88,7 +91,7 @@ Prompt（适用于 AI 助手）：
 ```bash
 Before installing anything, inspect the ClawHub skill metadata and setup requirements.
 If the skill asks you to install a third-party package or CLI, verify its source, maintainer, and package contents before running the install command.
-Install the skill "Diagnostic-Medicine-PMPH-10edition" (xllgreen/diagnostics-pmph-10edition) from ClawHub only after those checks pass.
+Install the skill "Diagnostics-PMPH-10edition" (xllgreen/diagnostics-pmph-10edition) from ClawHub only after those checks pass.
 Skill page: https://clawhub.ai/xllgreen/diagnostics-pmph-10edition
 Keep the work scoped to this skill only.
 After install, help me finish setup from verified skill metadata.
